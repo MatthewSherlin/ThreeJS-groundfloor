@@ -1,6 +1,6 @@
 //set up scene, camera, renderer
 const scene = new THREE.Scene();{
-  const color = 0xECAC93;
+  const color = 0xAFD0F0;
   const near = 3;
   const far = 6;
   scene.fog = new THREE.Fog(color, near, far);
